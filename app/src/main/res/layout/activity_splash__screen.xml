@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+
+    tools:context=".ui.ui.Splash_Screen">
+
+
+
+
+    <ImageView
+        android:id="@+id/icon9_1"
+        android:layout_width="335dp"
+        android:layout_height="327dp"
+        android:padding="100dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginBottom="336dp"
+        android:background="@drawable/icon91"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+
+
+
+    <TextView
+        android:id="@+id/stop_fap"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="78dp"
+
+        android:layout_marginTop="464dp"
+        android:gravity="center_horizontal|top"
+        android:text="Stop Fap"
+        android:fontFamily="@font/oxygenregular"
+        android:textColor="#FF0000"
+        android:textSize="55sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/if_i_can_co"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center_horizontal|top"
+        android:text="If I can control myself,\n I can control the world!"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/permanentmarker"
+
+
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stop_fap" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

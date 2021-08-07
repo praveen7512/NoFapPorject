@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "889475627277",
+    "project_id": "nofapapp-76860",
+    "storage_bucket": "nofapapp-76860.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889475627277:android:b1b91c841c7e5337011844",
+        "android_client_info": {
+          "package_name": "com.example.nofapporject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889475627277-04dq0die3ebsg693oh5uikrlr978km42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdkibIHWOvdHAjl27ayZKVLHeKnmbABq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889475627277-04dq0die3ebsg693oh5uikrlr978km42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
